@@ -1,0 +1,476 @@
+<!-- TODO: Content goes here -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        main {
+            background-color: white;
+        }
+
+        body {
+            width: 70%;
+            background-color: #DCDCDC;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .logo {
+            text-align: center;
+        }
+
+        h1 {
+            margin-left: 1em;
+            font-family: Georgia;
+            font-weight: lighter;
+        }
+
+        hr {
+            border: none;
+            background-color: rgb(240, 240, 240);
+            height: 1px;
+            margin: 1em;
+        }
+
+        ul.navigation {
+            margin: 0;
+        }
+
+        ul.navigation li {
+            display: inline;
+            margin-right: 1em;
+            font-weight: bolder;
+        }
+
+        a {
+            color: rgb(20, 121, 204);
+            text-decoration: underline;
+        }
+
+        p {
+            font-family: Georgia;
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+
+        u {
+            text-decoration: underline;
+        }
+
+        span {
+            border-bottom: 1px dashed;
+        }
+
+        mark {
+            background: #ffef95;
+        }
+
+        .headers {
+            font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+            margin-left: 1em;
+        }
+
+        .DIV {
+            font-family: courier;
+            width: auto;
+            margin: 1em;
+            padding: 1em;
+            background-color: rgb(240, 240, 240);
+        }
+
+        .alpha {
+            list-style-type: upper-alpha;
+        }
+
+        .select {
+            margin-left: 1em;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
+            border-collapse: collapse;
+            border: 1px solid grey;
+
+        }
+
+        td {
+            border: 1px solid #e2e2e2;
+            padding: 8px;
+        }
+
+        th {
+            color: grey;
+            border: 1px solid #e2e2e2;
+            padding: 8px;
+        }
+
+        blockquote {
+            color: #878787;
+            font-family: Georgia, serif;
+            font-size: 16px;
+            font-style: italic;
+            line-height: 1.45;
+            position: relative;
+            text-align: justify;
+            position: relative;
+            width: 850px;
+        }
+
+        form {
+            text-align: right;
+        }
+
+        footer {
+            text-align: center;
+            height:  100px;
+            line-height:  100px;       
+            width: auto;
+            height: 80px;
+            margin: 1em;
+            padding: 1em;
+            background-color: rgb(187, 187, 187);
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <a name="Home"></a>
+
+        <div class="logo">
+            <img src="logo.png" width="140" height="80" alt="logo">
+        </div>
+
+        <h1>
+            HTML Elements
+        </h1>
+
+        <hr />
+        <nav>
+            <ul class="navigation">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Headers">Headers</a></li>
+                <li><a href="#Text">Text</a></li>
+                <li><a href="#List">List</a></li>
+                <li><a href="#Table">Table</a></li>
+                <li><a href="#Blockquotes">Blockquotes</a></li>
+            </ul>
+        </nav>
+
+        <hr />
+
+        <p>Lorem ipsum dolor sit amet,
+            <a>test link</a>
+            adipiscing elit.
+            <strong>This is strong.</strong>
+            Nullam dignissim convallis est. Quisque aliquam.
+            <em>This is emphasized.</em>
+            Donec faucibus. Nunc iaculis suscipit dui.
+            5<sup><small>3</small></sup>= 125.
+            Water is H<sub><small>2</small></sub>O.
+            Nam sit amet sem. Aliquam libero nisi, imperdiet at,
+            tincidunt nec, gravida vehicula, nisl.
+            <em>The New York Times</em>
+            (That&#8217;s a citation).
+            <u>Underline.</u>
+            Maecenas ornare tortor. Donec sed tellus eget sapien
+            fringilla nonummy. Mauris a ante. Suspendisse quam sem,
+            consequat at, commodo vitae, feugiat in, nunc. Morbi
+            imperdiet augue quis tellus.
+        </p>
+        <p>
+            Watch out for the abbreviations! <span>HTML</span> and <span>CSS</span>
+            are our tools. Mauris a ante. Suspendisse
+            quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi
+            imperdiet augue quis tellus. Praesent mattis,
+            massa quis luctus fermentum,
+            turpis mi volutpat justo, eu
+            volutpat enim diam eget metus. To copy a
+            file type
+            COPY
+            <em>filename.</em>
+            <del> Dinner`s at 5:00.</del>
+            <mark>Let&#8217;s make that 7.</mark>
+            This <del>text</del> has been struck.
+        </p>
+
+        <hr />
+
+        <p>
+            Pay attention to h1 tag inside section element.
+            Font-size for h1 is the same as font-size for h2,
+            because we have to use only one h1 on the page,
+            and it is commonly used inside header
+        </p>
+
+        <a name="Headers"></a>
+
+        <div class="headers">
+            <h2>
+                Header 2
+            </h2>
+
+            <h3>
+                Header 3
+            </h3>
+
+            <h4>
+                Header 4
+            </h4>
+
+            <h5>
+                Header 5
+            </h5>
+
+            <h6>
+                Header 6
+            </h6>
+        </div>
+
+        <hr />
+
+        <a name="Text"></a>
+
+        <div class="headers">
+            <h2>
+                Text formats
+            </h2>
+
+            <h3>
+                Article Text
+            </h3>
+
+            <h2>
+                Article title
+            </h2>
+
+            <h3>
+                Article description
+            </h3>
+
+        </div>
+        <div class="headers">
+            <h3>
+                Preformatted Text
+            </h3>
+        </div>
+
+        <div class="DIV">
+            <pre>
+    <b>Text</b> 
+    in a <b>pre</b> element 
+    is displayed in a fixed-width 
+    font, and it preserves 
+    both         spaces and 
+    line breaks
+            </pre>
+
+        </div>
+
+        <div class="headers">
+            <h3>
+                This is code
+            </h3>
+        </div>
+
+        <div class="DIV">
+            <code>
+                <pre>
+    .wrapper {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+         }
+                </pre>            
+        </code>     
+        </div>
+
+        <a name="List"></a>
+
+        <div class="headers">
+            <h2>
+                Unordered Product List
+            </h2>
+        </div>
+
+        <ul type="square">
+            <li>
+                Eggs
+            </li>
+            <li>
+                Meat
+            </li>
+            <ul type="square">
+                <li>
+                    Chicken
+                </li>
+                <li>
+                    Beef
+                </li>
+                <li>
+                    Pork
+                </li>
+            </ul>
+            <li>
+                Milk
+            </li>
+        </ul>
+
+        <div class="headers">
+            <h2>
+                Ordered TODO List
+            </h2>
+        </div>
+
+        <ol>
+            <li>
+                Relax
+            </li>
+            <li>
+                Finish homework
+            </li>
+            <ol class="alpha">
+                <li>
+                    Analyze requirements
+                </li>
+                <li>
+                    Create HTML page
+                </li>
+                <li>
+                    Upload to GitHub
+                </li>
+            </ol>
+            <li>
+                Enjoy your day
+            </li>
+        </ol>
+
+        <div class="headers">
+            <h3>
+                Definition List
+            </h3>
+        </div>
+
+        <p>
+            <b>HTML</b>
+            <br />
+            HTML is the standard markup language for Web pages
+        </p>
+
+        <p>
+            <b>CSS</b>
+            <br />
+            CSS describes how HTML elements are to be displayed
+        </p>
+
+        <p>
+            <b>JavaScript</b>
+            <br />
+            JavaScript is the Programming Language for the Web
+        </p>
+
+        <div class="select">
+            Select option
+            <select name="select">
+                <option value="value1">CSS</option>
+                <option value="value2" selected>HTML</option>
+                <option value="value3">JS</option>
+            </select>
+        </div>
+
+        <hr />
+
+        <hr />
+
+        <a name="Table"></a>
+                 
+        <div class="headers">
+            <h2>
+                Table
+            </h2>
+        </div>
+        
+        <table>
+            <tr>
+                <th><b>Cities</b></th>
+                <th><b>Technologies</b></th>
+            </tr>
+            <tr>
+                <td>Lviv</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>Lviv</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>Dnipro</td>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <td>Kharkiv</td>
+                <td>Angular</td>
+            </tr>
+            <tr>
+                <td>Kyiv</td>
+                <td>ReactJS</td>
+            </tr>
+        </table>
+
+        <div class="headers">
+            <h2>
+                Blockquotes
+            </h2>
+        </div>
+
+        <p>
+            Let&#8217;s keep it simple. Italics are good to help set it off from the body text. Be sure to style the
+            citation.
+        </p>
+
+        <a name="Blockquotes"></a>
+
+        <blockquote>"If you go back a few hundred years, what we take for granted today would seem like magic-being able
+            to talk to people over long distances, to transmit images, flying, accessing vast amounts of data
+            like an oracle. These are all things that would have been considered magic a few hundred years ago." <br>
+            <a>Elon Musk</a>
+        </blockquote>
+
+        <hr />
+
+        <form action="textarea.php" method="post">
+            <p>
+                First name:
+                <input type="text" name="firstname">
+            </p>
+            <p>
+                Last name:
+                <input type="text" name="lastname">
+            </p>
+            <p>
+                Email:
+                <input type="email" name="email">
+            </p>
+            <p>
+                Password:
+                <input type="password" name="firstname">
+            </p>
+            <p><textarea rows="5" cols="25" name="text"></textarea></p>
+            <p><input type="submit" value="Submit"></p>
+        </form>
+
+        <footer>
+            <div>
+                &#169; Copyright Epam Systems
+            </div>            
+        </footer>
+        
+    </main>
+</body>
+
+</html>
